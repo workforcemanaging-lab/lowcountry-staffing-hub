@@ -12,16 +12,16 @@ interface CTASectionProps {
 
 export function CTASection({ title, subtitle, primaryLabel, primaryTo, secondaryLabel, secondaryTo }: CTASectionProps) {
   return (
-    <section className="bg-primary section-padding">
+    <section className="bg-gradient-to-r from-emerald-800 via-teal-800 to-blue-800 section-padding">
       <div className="container-narrow text-center">
         <h2 className="text-3xl font-bold text-primary-foreground md:text-4xl">{title}</h2>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/80">{subtitle}</p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button size="lg" variant="secondary" asChild>
+          <Button size="lg" className="bg-emerald-400 text-emerald-950 hover:bg-emerald-300" asChild>
             <Link to={primaryTo}>{primaryLabel}</Link>
           </Button>
           {secondaryLabel && secondaryTo && (
-            <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
+            <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10" asChild>
               <Link to={secondaryTo}>{secondaryLabel}</Link>
             </Button>
           )}

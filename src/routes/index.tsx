@@ -37,25 +37,25 @@ function HomePage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img src={heroImage} alt="Workforce team in Hilton Head" className="h-full w-full object-cover" width={1920} height={1080} />
-          <div className="absolute inset-0 bg-coastal-deep/80" />
+          <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/85 via-teal-900/80 to-blue-900/85" />
         </div>
         <div className="container-narrow relative z-10 px-4 py-24 md:px-8 md:py-32 lg:px-16 lg:py-40">
           <div className="max-w-2xl">
-            <h1 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
+            <h1 className="text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
               Reliable Workforce Solutions in Hilton Head & the Lowcountry
             </h1>
-            <p className="mt-6 text-lg text-primary-foreground/80 md:text-xl leading-relaxed">
+            <p className="mt-6 text-lg text-white/80 md:text-xl leading-relaxed">
               Connecting businesses with qualified talent and helping job seekers find meaningful
               employment across Hilton Head, Bluffton, Beaufort, and surrounding areas.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" variant="secondary" className="gap-2" asChild>
+              <Button size="lg" className="gap-2 bg-emerald-400 text-emerald-950 hover:bg-emerald-300" asChild>
                 <Link to="/job-seekers">
                   <Briefcase className="h-5 w-5" />
                   Find a Job
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="gap-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
+              <Button size="lg" variant="outline" className="gap-2 border-white/30 text-white hover:bg-white/10" asChild>
                 <Link to="/employers">
                   <Building2 className="h-5 w-5" />
                   Hire Talent
