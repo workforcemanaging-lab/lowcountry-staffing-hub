@@ -137,7 +137,7 @@ function HomePage() {
               <div key={t.name} className="rounded-xl border border-border bg-card p-6">
                 <div className="flex gap-1">
                   {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" />
+                    <Star key={i} className="h-4 w-4 fill-current text-accent" />
                   ))}
                 </div>
                 <p className="mt-4 text-sm text-muted-foreground leading-relaxed italic">"{t.text}"</p>
