@@ -21,7 +21,7 @@ export function CTASection({ title, subtitle, primaryLabel, primaryTo, secondary
             <Link to={primaryTo}>{primaryLabel}</Link>
           </Button>
           {secondaryLabel && secondaryTo && (
-            <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10" asChild>
+            <Button size="lg" className="bg-emerald-400 text-emerald-950 hover:bg-emerald-300" asChild>
               <Link to={secondaryTo}>{secondaryLabel}</Link>
             </Button>
           )}
