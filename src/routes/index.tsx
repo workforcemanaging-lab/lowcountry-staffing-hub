@@ -55,7 +55,7 @@ function HomePage() {
                   Find a Job
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="gap-2 border-white/30 text-white hover:bg-white/10" asChild>
+              <Button size="lg" className="gap-2 bg-emerald-400 text-emerald-950 hover:bg-emerald-300" asChild>
                 <Link to="/employers">
                   <Building2 className="h-5 w-5" />
                   Hire Talent
