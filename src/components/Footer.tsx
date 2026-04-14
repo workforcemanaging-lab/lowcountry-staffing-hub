@@ -54,9 +54,9 @@ export function Footer() {
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
                 <span>Hilton Head Island, SC 29928</span>
               </div>
-              <a href="tel:+18431234567" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+              <a href="tel:+18433681883" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
                 <Phone className="h-4 w-4 shrink-0" />
-                (843) 123-4567
+                (843) 368-1883
               </a>
               <a href="mailto:info@workforcemanaging.com" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
                 <Mail className="h-4 w-4 shrink-0" />
