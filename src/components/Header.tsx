@@ -43,9 +43,9 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <a href="tel:+18431234567" className="flex items-center gap-1.5 text-sm font-medium text-white/70 hover:text-white">
+          <a href="tel:+18433681883" className="flex items-center gap-1.5 text-sm font-medium text-white/70 hover:text-white">
             <Phone className="h-4 w-4" />
-            (843) 123-4567
+            (843) 368-1883
           </a>
           <Button className="bg-emerald-400 text-emerald-950 hover:bg-emerald-300" asChild>
             <Link to="/contact">Get Started</Link>
