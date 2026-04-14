@@ -58,9 +58,9 @@ export function Footer() {
                 <Phone className="h-4 w-4 shrink-0" />
                 (843) 368-1883
               </a>
-              <a href="mailto:info@workforcemanaging.com" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+              <a href="mailto:workforcemanaging@gmail.com" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
                 <Mail className="h-4 w-4 shrink-0" />
-                info@workforcemanaging.com
+                workforcemanaging@gmail.com
               </a>
             </div>
           </div>
