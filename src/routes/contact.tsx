@@ -20,8 +20,8 @@ export const Route = createFileRoute("/contact")({
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "Hilton Head Island, SC 29928" },
-  { icon: Phone, label: "Phone", value: "(843) 123-4567", href: "tel:+18431234567" },
-  { icon: Mail, label: "Email", value: "info@workforcemanaging.com", href: "mailto:info@workforcemanaging.com" },
+  { icon: Phone, label: "Phone", value: "(843) 368-1883", href: "tel:+18433681883" },
+  { icon: Mail, label: "Email", value: "info@workforcemanaging.com", href: "mailto:workforcemanaging@gmail.com" },
   { icon: Clock, label: "Business Hours", value: "Mon–Fri: 8AM – 5PM EST" },
 ];
 
