@@ -60,7 +60,7 @@ function ContactPage() {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit} action="https://formsubmit.co/workforcemanaging@gmail.com" className="space-y-5">
                 <div className="grid gap-5 sm:grid-cols-2">
                   <div>
                     <Label htmlFor="name">Full Name *</Label>
